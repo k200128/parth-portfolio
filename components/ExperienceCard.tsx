@@ -37,6 +37,7 @@ function ExperienceCard({experience}: Props) {
     height="20px"
     width="20px"
     objectFit='contain'
+    alt=''
     />
 ))}
                 </div>
