@@ -45,8 +45,8 @@ export default {
     {
       name: 'points',
       title: 'Points',
-      type: 'array',
-      of: [{ type: "string" }]
+      type: 'string',
+      // of: [{ type: 'string' }]
     },
   ],
 

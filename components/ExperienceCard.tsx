@@ -6,9 +6,9 @@ import Image from 'next/image'
 type Props = {
     experience: Experience
 }
-
 function ExperienceCard({experience}: Props) {
   return (
+  
     <article className='flex flex-col rounded-lg items-center space-y-2 flex-shrink-0 w-[400px] md:w-[700px] xl:w-[1000px] h-[450px] snap-center bg-[#292929] p-[5px] opacity-40 hover:opacity-100  cursor-pointer transition-opacity duration-200 overflow-hidden '>
         <motion.img
         initial={{opacity: 0,
@@ -50,9 +50,9 @@ function ExperienceCard({experience}: Props) {
                 {""} {experience.isCurrentlyWorking? "Present" : new Date(experience.dateEnded).toDateString()} </p>
 
             <ul className='list-disc space-y-2 ml-5 text-lg'>
-                {experience.points.map((point, i ) => (
-                   <li key={i} > {point}</li> 
-                ))}
+                {experience.points}
+            
+                
 
             </ul>
         </div>
