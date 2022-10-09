@@ -33,11 +33,12 @@ function ExperienceCard({experience}: Props) {
     <Image
     key={technology._id}
     
-    src={urlFor(technology?.image).url()} 
+    src={urlFor(technology?.image).url()}
+    alt='' 
     height="20px"
     width="20px"
     objectFit='contain'
-    alt=''
+    
     />
 ))}
                 </div>
