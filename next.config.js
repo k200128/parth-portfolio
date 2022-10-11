@@ -9,3 +9,8 @@ module.exports = {
     domains: ["cdn.sanity.io"]
   }
 }
+module.exports = {
+  images: {
+      unoptimized: true
+  }
+}

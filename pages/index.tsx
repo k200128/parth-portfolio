@@ -1,4 +1,4 @@
-import type { GetStaticProps, NextPage } from 'next'
+import type { GetStaticProps } from 'next'
 import Head from 'next/head'
 import Link from 'next/link'
 import About from '../components/About'
@@ -106,7 +106,7 @@ return {
     socials,
   },
 
-  revalidate:10,
+  revalidate:5,
 }
 
 

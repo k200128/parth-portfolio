@@ -2,7 +2,7 @@ import React from 'react';
 import { motion } from "framer-motion"
 import { PageInfo } from '../sanity/typings';
 import { urlFor } from '../sanity';
-import Image from 'next/image'
+
 
 type Props = {
     pageInfo:PageInfo
